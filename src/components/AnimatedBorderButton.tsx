@@ -1,7 +1,5 @@
-import { Download } from "lucide-react";
-
 type Proptype = {
-  children?: string;
+  children?: React.ReactNode;
 };
 
 export function AnimatedBorderButton({ children }: Proptype) {

@@ -3,7 +3,7 @@ type ButtonProps = {
   size: "sm" | "default" | "lg";
   children?: React.ReactNode;
   type?: "submit" | "reset" | "button";
-  disabled: false | true;
+  disabled?: false | true;
 };
 
 export function Button({ className, size, children, ...prop }: ButtonProps) {
