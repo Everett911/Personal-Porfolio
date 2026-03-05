@@ -1,5 +1,6 @@
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 import { Button } from "@/components/Button";
+import React, { useMemo } from "react";
 import {
   ArrowRight,
   ChevronDown,
@@ -31,12 +32,23 @@ const skills = [
 ];
 
 export function Hero() {
+  const dots = useMemo(
+    () =>
+      [...Array(30)].map(() => ({
+        left: `${Math.random() * 100}%`,
+        top: `${Math.random() * 100}%`,
+        animation: `slow-drift ${15 + Math.random() * 20}s ease-in-out infinite`,
+        animationDelay: `${Math.random() * 5}s`,
+      })),
+    [],
+  );
+
   return (
     <section className="relative min-h-screen flex items-center  overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="projects/hero-bg.jpg"
+          src="/projects/hero-bg.jpg"
           alt="Hero image"
           className="w-full  h-full object-cover opacity-40"
         />
@@ -45,15 +57,16 @@ export function Hero() {
 
       {/* Green Dots */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {[...Array(30)].map((_, i) => (
+        {dots.map((dot, i) => (
           <div
+            key={i}
             className="absolute w-1.5 h-1.5 rounded-full opacity-60"
             style={{
               backgroundColor: "#20B2A6",
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              animation: `slow-drift ${15 + Math.random() * 20}s ease-in-out infinite`,
-              animationDelay: `${Math.random() * 5}s`,
+              left: dot.left,
+              top: dot.top,
+              animation: dot.animation,
+              animationDelay: dot.animationDelay,
             }}
           />
         ))}
@@ -84,8 +97,8 @@ export function Hero() {
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
                 Hi, I'm Everett Mel Lara - a frontend developer specializing in
-                React and TypeScript. I build scalable, performant we
-                applications tant users love.
+                React and TypeScript. I build scalable, performant web
+                applications that users love.
               </p>
             </div>
 
