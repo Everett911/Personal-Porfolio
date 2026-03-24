@@ -12,13 +12,21 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Fintech Dashboard",
+    title: "Weather App",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project-1.jpg",
-    tags: ["React", "Typescript", "NodeJs"],
-    link: "#",
-    github: "#",
+      "Comprehensive Weather Platform that can pinpoint in the map that view accurate detail of the hourly and daily weather forecast. It has a map filter which you can choose to change in the map, extensive details of air pollution and additional detail like wind, UV, and many more.",
+    image: "/projects/project-1.PNG",
+    tags: [
+      "React",
+      "Typescript",
+      "Zod",
+      "OpenWeather",
+      "Shadcn",
+      "Tailwindcss",
+      "TanStack Query",
+    ],
+    link: "https://weather-app-three-topaz-49.vercel.app/",
+    github: "https://github.com/Everett911/Weather-App",
   },
   {
     title: "E-Commerce Platform",
