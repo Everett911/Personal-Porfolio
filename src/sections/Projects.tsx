@@ -15,7 +15,7 @@ const projects: Project[] = [
     title: "E-Commerce Platform",
     description:
       "Digi-Express is an e-commerce platform built similarly to a lightweight Amazon architecture, featuring a centralized digital storefront engineered for high-volume retail across fashion, accessories, and home goods. Acting as a direct-to-consumer marketplace model, it mimics major enterprise storefronts by integrating an extensive multi-tier catalog management system, a dynamic promotional pipeline for real-time seasonal marketing campaigns, and a media-rich content module designed to optimize platform engagement and maximize customer retention.",
-    image: "/projects/digi-express.png",
+    image: "/projects/digi-express.PNG",
     tags: [
       "Next-Js",
       "Stripe",
