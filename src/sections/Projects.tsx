@@ -12,6 +12,22 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "E-Commerce Platform",
+    description:
+      "Digi-Express is an e-commerce platform built similarly to a lightweight Amazon architecture, featuring a centralized digital storefront engineered for high-volume retail across fashion, accessories, and home goods. Acting as a direct-to-consumer marketplace model, it mimics major enterprise storefronts by integrating an extensive multi-tier catalog management system, a dynamic promotional pipeline for real-time seasonal marketing campaigns, and a media-rich content module designed to optimize platform engagement and maximize customer retention.",
+    image: "/projects/project-2.png",
+    tags: [
+      "Next-Js",
+      "Stripe",
+      "",
+      "BetterAuth",
+      "Prisma(PostgreSQL)",
+      "Typescript",
+    ],
+    link: "https://digi-express-alpha.vercel.app/",
+    github: "https://github.com/Everett911/digi-express",
+  },
+  {
     title: "Weather App",
     description:
       "Comprehensive Weather Platform that can pinpoint in the map that view accurate detail of the hourly and daily weather forecast. It has a map filter which you can choose to change in the map, extensive details of air pollution and additional detail like wind, UV, and many more.",
@@ -27,15 +43,6 @@ const projects: Project[] = [
     ],
     link: "https://weather-app-three-topaz-49.vercel.app/",
     github: "https://github.com/Everett911/Weather-App",
-  },
-  {
-    title: "E-Commerce Platform",
-    description:
-      "A full-feature e-commerce solution with inventory management, payment management and tracking order",
-    image: "/projects/project-2.png",
-    tags: ["React", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
   },
   {
     title: "AI Writing Assistant",
@@ -77,7 +84,7 @@ export function Projects() {
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
             A selection of my recent work, from complex web applications to
-            innovative tools that solve real-world problems.
+            innovative tools that codes are maintainable.
           </p>
         </div>
         {/* Projects Grid */}

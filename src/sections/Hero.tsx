@@ -15,17 +15,11 @@ const skills = [
   "Next.js",
   "TypeScript",
   "Node.js",
-  "GraphQL",
   "PostgreSQL",
   "MongoDB",
-  "Redis",
-  "Docker",
-  "AWS",
   "Vercel",
   "Tailwind CSS",
   "Prisma",
-  "Jest",
-  "Cypress",
   "Figma",
   "Git",
   "GitHub Actions",
@@ -44,7 +38,6 @@ export function Hero() {
   const dots = useMemo(() => generateDots(30), []);
   return (
     <section className="relative min-h-screen flex items-center  overflow-hidden">
-      {/* Background */}
       <div className="absolute inset-0">
         <img
           src="/projects/hero-bg.jpg"
@@ -97,9 +90,13 @@ export function Hero() {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Everett Mel Lara - a frontend developer specializing in
-                React and TypeScript. I build scalable, performant web
-                applications that users love.
+                Hi, I'm Everett Mel Lara. I’m a web developer specializing in
+                React, TypeScript, and Next.js, dedicated to building scalable,
+                performant web applications. I bridge the gap between clean,
+                maintainable architecture and exceptional user experiences.
+                Whether it's optimizing Core Web Vitals, managing complex state,
+                or deploying server-rendered applications, I focus on delivering
+                fast, production-ready code that drives real value.
               </p>
             </div>
 

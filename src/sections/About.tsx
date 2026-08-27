@@ -1,28 +1,40 @@
-import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
+import { Code2, Eye, Layers, Rocket, Sparkles, Target } from "lucide-react";
 
 const highlights = [
   {
     icon: Code2,
     title: "Clean Code",
     description:
-      "Writing Maintainable, scalable code that stands the test of time",
+      "Writing maintainable, scalable code that stands the test of time.",
   },
   {
     icon: Rocket,
     title: "Performance",
     description:
-      "Optimizing for speed and delivering lightning-fast user experionces.",
+      "Optimizing for speed and delivering lightning-fast user experiences.",
   },
   {
-    icon: Users,
-    title: "Collaboration",
-    description: "Working closely with teams to bring ideas to life",
-  },
-  {
-    icon: Lightbulb,
-    title: "Innovation",
+    icon: Layers,
+    title: "Scalable Architecture",
     description:
-      "Staying ahead with the latest technologies and best practices.",
+      "Designing modular systems that easily adapt to growing user demands.",
+  },
+  {
+    icon: Eye,
+    title: "Inclusive Design",
+    description: "Building accessible web experiences that welcome everyone.",
+  },
+  {
+    icon: Target,
+    title: "Product Mindset",
+    description:
+      "Aligning technical execution with strategic business objectives.",
+  },
+  {
+    icon: Sparkles,
+    title: "Fluid UX",
+    description:
+      "Crafting highly responsive interfaces with natural micro-interactions.",
   },
 ];
 
@@ -48,30 +60,28 @@ export function About() {
             </h2>
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm passionate software engineer with over 5 years of experience
-                crafting digital products that make a difference. A journey
-                started with a curiosity for how things work on the web and it
-                has evolved into a deep expertise in modern frontend
-                technologies.
+                Hi, I'm Everett. I am a passionate web developer specializing in
+                React, TypeScript, and Next.js to craft digital products that
+                make a meaningful difference. What began as a raw curiosity
+                about how the web works has evolved into deep expertise in
+                engineering scalable, high-performance frontend architectures.
               </p>
               <p>
-                I specialize in React and TypeScript, building everything from
-                sleek landing pages to complex enterprise applications. My
-                approach combines technical excellence with a keen eye for
-                design and user experience.
+                I focus on bridging the gap between clean code and exceptional
+                user experiences, ensuring every product I build is fast,
+                intuitive, and impactful.
               </p>
               <p>
                 When I'm not coding, you'll find me exploring new technologies
-                contributing to open-source projects, or sharing knowledge with
-                the developer community
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but trurly delightful - products that users love to
-                use and developers love to maintain"
+                "Crafting seamless digital experiences that satisfy users and
+                empower developers. I build for two audiences: the end-user who
+                deserves a flawless interface, and the engineering team that
+                inherits a sustainable codebase"
               </p>
             </div>
           </div>
