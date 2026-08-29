@@ -44,24 +44,6 @@ const projects: Project[] = [
     link: "https://weather-app-three-topaz-49.vercel.app/",
     github: "https://github.com/Everett911/Weather-App",
   },
-  {
-    title: "AI Writing Assistant",
-    description:
-      "An intelligent writing tool powered by GPT-4, helping users create professional content effortlessly.",
-    image: "/projects/project-3.jpg",
-    tags: ["React", "Typescript", "NodeJs"],
-    link: "#",
-    github: "#",
-  },
-  {
-    title: "Project Management Tool",
-    description:
-      "A collaborative workspace for teams with real-time updates, task tracking.",
-    image: "/projects/project-4.webp",
-    tags: ["React", "Typescript", "NodeJs"],
-    link: "#",
-    github: "#",
-  },
 ];
 
 export function Projects() {

@@ -105,19 +105,18 @@ export function Hero() {
               <Button size="lg">
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
-              <AnimatedBorderButton>
-                <Download className="w-5 h-5 " />
-                Download CV
-              </AnimatedBorderButton>
             </div>
 
             {/* Social Links */}
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me:</span>
               {[
-                { icon: Github, href: "#" },
-                { icon: Linkedin, href: "#" },
-                { icon: Facebook, href: "#" },
+                { icon: Github, href: "https://github.com/Everett911" },
+                { icon: Linkedin, href: "www.linkedin.com/in/everett-lara" },
+                {
+                  icon: Facebook,
+                  href: "https://www.facebook.com/everett.mel.e.lara",
+                },
               ].map((social, idx) => (
                 <a
                   key={idx}
