@@ -19,7 +19,6 @@ const projects: Project[] = [
     tags: [
       "Next-Js",
       "Stripe",
-      "",
       "BetterAuth",
       "Prisma(PostgreSQL)",
       "Typescript",
