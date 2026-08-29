@@ -130,12 +130,12 @@ export function Projects() {
 
         {/* View All CTA */}
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
-          <link href={"https://github.com/Everett911"}>
+          <a href="https://github.com/Everett911">
             <AnimatedBorderButton>
               View All projects
               <ArrowUpRight className="w-5 h-5" />
             </AnimatedBorderButton>
-          </link>
+          </a>
         </div>
       </div>
     </section>
