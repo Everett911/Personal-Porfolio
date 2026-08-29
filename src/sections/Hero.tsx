@@ -1,4 +1,3 @@
-import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 import { Button } from "@/components/Button";
 import React, { useMemo } from "react";
 import {
@@ -7,7 +6,6 @@ import {
   Facebook,
   Github,
   Linkedin,
-  Download,
 } from "lucide-react";
 
 const skills = [
