@@ -1,9 +1,17 @@
 import { Github, Linkedin, Facebook } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Facebook, href: "#", label: "Twitter" },
+  { icon: Github, href: "https://github.com/Everett911", label: "GitHub" },
+  {
+    icon: Linkedin,
+    href: "www.linkedin.com/in/everett-lara",
+    label: "LinkedIn",
+  },
+  {
+    icon: Facebook,
+    href: "https://www.facebook.com/everett.mel.e.lara",
+    label: "Twitter",
+  },
 ];
 
 const footerLinks = [
