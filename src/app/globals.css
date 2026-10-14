@@ -200,11 +200,10 @@
 
   /*
    * Stop the large or attention-grabbing motion only. The slow background
-   * dot drift and the small status pulses stay, as they're subtle.
+   * dot drift, the skills marquee and the small status pulses stay.
    */
   .animate-fade-in,
   .animate-float,
-  .animate-marquee,
   .animate-bounce,
   .group:hover .animated-border-path {
     animation: none !important;
