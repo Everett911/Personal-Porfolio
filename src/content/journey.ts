@@ -34,8 +34,20 @@ export const journey: JourneyStep[] = [
   {
     period: "2024 – 2025",
     title: "Coming back to web development",
-    body: "I came back to coding and found the web had changed a lot since 2018. I relearned modern JavaScript, then moved to building with React components. Thinking in state and props took a while to click. Once I added TypeScript, many bugs I used to find in the browser showed up in my editor instead.",
+    body: "Once things settled down, I finally made time to code again, and found the web had changed a lot since 2018. I relearned modern JavaScript, then moved to building with React components. Thinking in state and props took a while to click. Once I added TypeScript, many bugs I used to find in the browser showed up in my editor instead.",
     skills: ["Modern JavaScript", "React", "TypeScript", "Git & GitHub"],
+  },
+  {
+    period: "2022 – 2023",
+    title: "On-call waiter at Teachers Camp",
+    body: "I worked as an on-call waiter for Plate O' Gold at Teachers Camp, serving events with a team. Busy events taught me to stay calm under pressure, work closely with others, and treat every guest well. Those are the same habits I bring to working with users and teammates now.",
+    skills: ["Teamwork", "Customer service", "Working under pressure"],
+  },
+  {
+    period: "2020 – 2021",
+    title: "Getting through the pandemic",
+    body: "My network job ended in April 2020, just as lockdowns closed most of Baguio. With few IT jobs available, I took whatever honest work I could find: construction work, house painting and running a market stall. It left little time for coding, but it taught me resilience, discipline with time and money, and how to keep showing up when things are uncertain.",
+    skills: ["Resilience", "Adaptability", "Time management"],
   },
   {
     period: "2019 – 2020",

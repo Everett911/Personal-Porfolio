@@ -17,7 +17,7 @@ export function Journey() {
           eyebrow="My Journey"
           title="From a 2018 student project"
           accent="to full-stack apps."
-          description="I studied IT, worked in IT support and networking, then came back to web development. Here's what I learned at each step."
+          description="I studied IT, worked in IT support and networking, took on construction, painting and waiting jobs through the pandemic, then came back to web development. Here's what each step taught me."
         />
 
         <ol className="relative mt-16 max-w-3xl mx-auto border-l border-border pl-8 space-y-12">
