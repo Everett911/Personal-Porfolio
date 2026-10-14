@@ -1,5 +1,7 @@
 # Everett Mel Lara — Portfolio
 
+Live at <https://everett-lara.vercel.app>.
+
 My personal portfolio: who I am, what I've learned in two years of web
 development, and case studies of the projects I've built.
 
@@ -21,7 +23,7 @@ Open <http://localhost:3000>.
 | Variable | Purpose |
 | --- | --- |
 | `NEXT_PUBLIC_EMAILJS_SERVICE_ID`, `NEXT_PUBLIC_EMAILJS_TEMPLATE_ID`, `NEXT_PUBLIC_EMAILJS_PUBLIC_KEY` | Contact form (EmailJS) |
-| `NEXT_PUBLIC_SITE_URL` | Optional. Public URL used for canonical links, the sitemap and social previews. On Vercel it falls back to the production URL. |
+| `NEXT_PUBLIC_SITE_URL` | Optional. Public URL used for canonical links, the sitemap and social previews. Defaults to https://everett-lara.vercel.app on Vercel. |
 
 ## Project structure
 

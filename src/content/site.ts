@@ -1,8 +1,8 @@
 import { Facebook, Github, Linkedin, type LucideIcon } from "lucide-react";
 
-// Vercel sets VERCEL_PROJECT_PRODUCTION_URL on every deploy, so links and
-// social previews point at the live site without extra setup.
-const vercelUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL;
+// Canonical address used for links, the sitemap and social previews.
+// NEXT_PUBLIC_SITE_URL overrides it; local dev uses localhost.
+const productionUrl = "https://everett-lara.vercel.app";
 
 export const site = {
   name: "Everett Mel Lara",
@@ -13,7 +13,7 @@ export const site = {
   phone: "+63 968 216 7905",
   url:
     process.env.NEXT_PUBLIC_SITE_URL ??
-    (vercelUrl ? `https://${vercelUrl}` : "http://localhost:3000"),
+    (process.env.VERCEL ? productionUrl : "http://localhost:3000"),
   title: "Everett Mel Lara — Junior Full-Stack Developer",
   description:
     "Junior full-stack developer from Baguio City, Philippines, with an IT diploma and two years of building with React, TypeScript and Next.js — including a full-stack store with payments and auth.",
